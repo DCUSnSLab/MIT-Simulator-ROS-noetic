@@ -2,23 +2,22 @@
 
 MIT에서 만든 시뮬레이터를 ROS Noetic에서 사용하기 위한 프로젝트입니다.
 
-This is a lightweight 2D simulator of the MIT Racecar.
-It can be built with ROS, or it can be used as a standalone C++ library.
-
 ## ROS
 
-### Dependencies
+### 의존성 패키지
 
-If you have ```ros-melodic-desktop``` installed, the additional dependencies you must install are:
+아래 패키지 설치해야 시뮬레이터 실행이 가능합니다.
 
 - tf2_geometry_msgs
 - ackermann_msgs
 - joy
 - map_server
 
-You can install them by running:
+위 패키지들은 터미널에서 아래 명령어로 설치할 수 있습니다.
 
-    sudo apt-get install ros-noetic-tf2-geometry-msgs ros-noetic-ackermann-msgs ros-noetic-joy ros-noetic-map-server
+```
+sudo apt-get install ros-noetic-tf2-geometry-msgs ros-noetic-ackermann-msgs ros-noetic-joy ros-noetic-map-server
+```
 
 The full list of dependencies can be found in the ```package.xml``` file.
 
