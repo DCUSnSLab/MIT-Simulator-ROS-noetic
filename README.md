@@ -32,9 +32,11 @@ git clone http://(사용자명)@itgit.cu.ac.kr/AutonomousDriving/ROS-MIT-Simulat
     
 그 후 ```catkin_make``` 명령어로 빌드합니다.
 
+```
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
+```
 
 ## 실행
 
