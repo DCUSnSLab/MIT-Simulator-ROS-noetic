@@ -27,20 +27,24 @@ sudo apt-get install ros-noetic-tf2-geometry-msgs ros-noetic-ackermann-msgs ros-
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/mit-racecar/racecar_simulator.git
+git clone http://(사용자명)@itgit.cu.ac.kr/AutonomousDriving/ROS-MIT-Simulator-Noetic
 ```
     
-Then run ```catkin_make``` to build it:
+그 후 ```catkin_make``` 명령어로 빌드합니다.
 
-    cd ~/catkin_ws
-    catkin_make
-    source devel/setup.bash
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
 
-## Quick Start
+## 실행
 
-To run the simulator on its own, run:
+시뮬레이터 실행을 위해, 아래 명령어를 입력합니다.
 
-    roslaunch racecar_simulator simulate.launch
+```
+roslaunch racecar_simulator simulate.launch
+```
+
+이하 내용은 원 프로젝트에 게시된 원문입니다.
 
 This will launch everything you need for a full simulation; roscore, the simulator, a preselected map, a model of the racecar and the joystick server.
 
