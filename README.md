@@ -1,5 +1,7 @@
 # Racecar Simulator
 
+MIT에서 만든 시뮬레이터를 ROS Noetic에서 사용하기 위한 프로젝트입니다.
+
 This is a lightweight 2D simulator of the MIT Racecar.
 It can be built with ROS, or it can be used as a standalone C++ library.
 
@@ -16,7 +18,7 @@ If you have ```ros-melodic-desktop``` installed, the additional dependencies you
 
 You can install them by running:
 
-    sudo apt-get install ros-melodic-tf2-geometry-msgs ros-melodic-ackermann-msgs ros-melodic-joy ros-melodic-map-server
+    sudo apt-get install ros-noetic-tf2-geometry-msgs ros-noetic-ackermann-msgs ros-noetic-joy ros-noetic-map-server
 
 The full list of dependencies can be found in the ```package.xml``` file.
 
