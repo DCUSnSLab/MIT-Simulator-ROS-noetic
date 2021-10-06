@@ -2,11 +2,13 @@
 
 MIT에서 만든 시뮬레이터를 ROS Noetic에서 사용하기 위한 프로젝트입니다.
 
+원 프로젝트 Github 주소 : https://github.com/mit-racecar/racecar_simulator
+
 ## ROS
 
 ### 의존성 패키지
 
-아래 패키지 설치해야 시뮬레이터 실행이 가능합니다.
+아래 패키지들을 설치해야 시뮬레이터 실행이 가능합니다.
 
 - tf2_geometry_msgs
 - ackermann_msgs
@@ -19,14 +21,14 @@ MIT에서 만든 시뮬레이터를 ROS Noetic에서 사용하기 위한 프로�
 sudo apt-get install ros-noetic-tf2-geometry-msgs ros-noetic-ackermann-msgs ros-noetic-joy ros-noetic-map-server
 ```
 
-The full list of dependencies can be found in the ```package.xml``` file.
+### 설치 및 실행
 
-### Installation
+아래 명령어로 시뮬레이터 패키지 코드를 워크스페이스의 src 디렉토리에 복사합니다.
 
-To install the simulator package, clone it into your catkin workspace:
-
-    cd ~/catkin_ws/src
-    git clone https://github.com/mit-racecar/racecar_simulator.git
+```
+cd ~/catkin_ws/src
+git clone https://github.com/mit-racecar/racecar_simulator.git
+```
     
 Then run ```catkin_make``` to build it:
 
